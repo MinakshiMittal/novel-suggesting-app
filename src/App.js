@@ -131,10 +131,16 @@ export default function App() {
               }}
             >
               <div style={{ textAlign: "right", marginBottom: "0.5rem" }}>
-                ⭐{novel.rating}
+                <span role="img" aria-label="star">
+                  ⭐
+                </span>
+                {novel.rating}
               </div>
               <div style={{ fontSize: "larger", textAlign: "left" }}>
-                🔖{novel.name}
+                <span role="img" aria-label="star">
+                  🔖
+                </span>
+                {novel.name}
                 <div
                   style={{
                     fontSize: "small",
@@ -143,7 +149,8 @@ export default function App() {
                     marginLeft: "1rem"
                   }}
                 >
-                  -{novel.author}
+                  <span> -</span>
+                  {novel.author}
                 </div>
               </div>
 
