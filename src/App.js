@@ -128,8 +128,7 @@ export default function App() {
                 margin: "1rem",
                 fontWeight: "bolder",
                 borderRadius: "1.2rem",
-                width: "60%",
-                margin: "auto"
+                width: "60%"
               }}
             >
               <div style={{ textAlign: "right", marginBottom: "0.5rem" }}>
