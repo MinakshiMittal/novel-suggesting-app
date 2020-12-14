@@ -127,7 +127,9 @@ export default function App() {
                 border: ".2rem solid #ef82d7",
                 margin: "1rem",
                 fontWeight: "bolder",
-                borderRadius: "1.2rem"
+                borderRadius: "1.2rem",
+                width: "60%",
+                margin: "auto"
               }}
             >
               <div style={{ textAlign: "right", marginBottom: "0.5rem" }}>
