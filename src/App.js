@@ -114,7 +114,7 @@ export default function App() {
         );
       })}
 
-      <ul>
+      <ul style={{ margin: "auto", maxWidth: "700px" }}>
         {genres[genreClicked].map((novel) => {
           return (
             <li
@@ -127,8 +127,7 @@ export default function App() {
                 border: ".2rem solid #ef82d7",
                 margin: "1rem",
                 fontWeight: "bolder",
-                borderRadius: "1.2rem",
-                width: "60%"
+                borderRadius: "1.2rem"
               }}
             >
               <div style={{ textAlign: "right", marginBottom: "0.5rem" }}>
