@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
