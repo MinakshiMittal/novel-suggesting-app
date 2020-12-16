@@ -104,9 +104,10 @@ export default function App() {
               borderRadius: "1rem",
               margin: "1rem ",
               padding: "1rem",
-              backgroundColor: "#60f799",
+              backgroundColor: "white",
               fontSize: "1rem",
-              fontWeight: "bold"
+              fontWeight: "bold",
+              border: "0.2rem solid #ef82d7"
             }}
           >
             <span>{genre}</span>
@@ -137,7 +138,7 @@ export default function App() {
                 {novel.rating}
               </div>
               <div style={{ fontSize: "larger", textAlign: "left" }}>
-                <span role="img" aria-label="star">
+                <span role="img" aria-label="bookmark">
                   🔖
                 </span>
                 {novel.name}
