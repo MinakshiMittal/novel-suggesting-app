@@ -9,3 +9,9 @@ body {
 ul {
   padding-inline-start: 0px;
 }
+
+@media (max-width: 720px) {
+  button {
+    margin: 0;
+  }
+}
